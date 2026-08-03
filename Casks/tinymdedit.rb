@@ -7,7 +7,7 @@ cask "tinymdedit" do
   desc "Minimal native Markdown editor for macOS"
   homepage "https://github.com/CedricHalenria/tinymdedit"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TinyMDEdit.app"
 

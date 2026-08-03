@@ -8,12 +8,11 @@ Formules et casks Homebrew de [CedricHalenria](https://github.com/CedricHalenria
 
 ```sh
 brew tap CedricHalenria/tap
-brew install --cask --no-quarantine tinymdedit
+brew trust CedricHalenria/tap
+brew install --cask tinymdedit
 ```
 
-`--no-quarantine` évite l'écran « impossible d'ouvrir cette app » au premier
-lancement. Il est nécessaire tant que l'application n'est pas notarisée par
-Apple ; sans ce drapeau, il faut autoriser l'app une fois dans
-**Réglages Système → Confidentialité et sécurité**.
+L'étape `brew trust` est exigée depuis Homebrew 6 pour tout cask provenant d'un
+tap tiers : Homebrew refuse sinon de le charger. Elle n'est à faire qu'une fois.
 
 Mise à jour : `brew upgrade --cask tinymdedit`.
