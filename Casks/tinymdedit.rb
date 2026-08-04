@@ -1,6 +1,6 @@
 cask "tinymdedit" do
-  version "0.1.0"
-  sha256 "d017f2a8851c29589355240a52b77996508c0f321d15a9b9adc3c2ce0fb1b596"
+  version "0.2.0"
+  sha256 "a5e97e51c3ea0405e88a911e4fcdf7c63b9172a4b7571bd159bc527b9021f3c9"
 
   url "https://github.com/CedricHalenria/tinymdedit/releases/download/v#{version}/TinyMDEdit-#{version}.zip"
   name "TinyMDEdit"
