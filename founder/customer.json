@@ -1,0 +1,39 @@
+{
+  "business": "mon-restaurant.eu (all-in-one online bookings, ordering, floor plan and website for restaurants, sold as a monthly subscription)",
+  "target": "Owners of independent, already-trading restaurants in French-speaking Belgium (Brussels and Wallonia) who decide on their own tools",
+  "where": "Brussels and Wallonia, Belgium",
+  "age": [28, 62],
+  "segments": [
+    {"name": "Small family bistro or brasserie (under 40 seats, owner in the kitchen or on the floor; 'income' is the owner's own yearly take-home in euros)", "share": 0.40, "income": [25000, 45000]},
+    {"name": "Mid-size restaurant (40 to 90 seats, a team of 5 to 15; 'income' is the owner's own yearly take-home in euros)", "share": 0.30, "income": [40000, 80000]},
+    {"name": "Pizzeria, Asian or snack restaurant with a lot of takeaway and delivery ('income' is the owner's own yearly take-home in euros)", "share": 0.20, "income": [25000, 55000]},
+    {"name": "Upscale or gastronomic restaurant ('income' is the owner's own yearly take-home in euros)", "share": 0.10, "income": [60000, 120000]}
+  ],
+  "behaviours": [
+    {"name": "Phone and paper book", "share": 0.25, "how": "Takes every booking by phone in a paper book, no online booking at all, and has managed like this for years."},
+    {"name": "Already on Zenchef / Resengo / Tablebooker", "share": 0.20, "how": "Pays every month for a booking tool, is used to it, and its reminders already cut some no-shows."},
+    {"name": "Depends on Uber Eats / Deliveroo / Takeaway", "share": 0.15, "how": "Gets a real share of sales from delivery apps, hates the commission, but the apps bring the customers."},
+    {"name": "Tied to a POS", "share": 0.10, "how": "Has a Lightspeed or similar till, with contract and hardware, and wants anything new to work with it."},
+    {"name": "Cash-tight and cautious", "share": 0.15, "how": "Watches every monthly charge after hard years, cuts subscriptions first, needs proof before paying."},
+    {"name": "Asks other restaurant owners", "share": 0.10, "how": "Only adopts a tool a colleague or supplier recommends, distrusts sales calls and new start-ups."},
+    {"name": "Wants to modernise", "share": 0.05, "how": "Is actively looking to get the restaurant online properly and compares tools."}
+  ],
+  "objections": [
+    "I have no time to set up a new system, and my staff will not learn it",
+    "My customers book by phone; they will not book online",
+    "If I ask for a deposit, my Belgian customers will go elsewhere",
+    "Delivery apps bring me customers; my own site will not",
+    "Who are you? I have never heard of you and see no restaurant using it",
+    "What if it breaks in the middle of Saturday service?",
+    "197 euros a month is a lot for my margins",
+    "I already pay for Zenchef / my till; I do not want to switch everything"
+  ],
+  "habits": [
+    "you answer the phone yourself between two dishes during service",
+    "you had two tables no-show last month",
+    "you work six days a week and do the admin on Monday",
+    "a supplier rep visits you every week",
+    "your nephew made your website years ago and it is out of date",
+    "your Google rating matters to you and you read the new reviews"
+  ]
+}
